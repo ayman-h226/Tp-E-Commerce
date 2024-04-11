@@ -5,14 +5,22 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
 		<version>3.2.4</version>
+=======
+		<version>3.3.0-SNAPSHOT</version>
+>>>>>>> 02dbdef (add file-config-server)
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.fisa</groupId>
 	<artifactId>config-file-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>config-file-server</name>
+<<<<<<< HEAD
 	<description>Server de file config</description>
+=======
+	<description>Serveur de fichier de config</description>
+>>>>>>> 02dbdef (add file-config-server)
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2023.0.1</spring-cloud.version>
@@ -49,5 +57,44 @@
 			</plugin>
 		</plugins>
 	</build>
+<<<<<<< HEAD
+=======
+	<repositories>
+		<repository>
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>https://repo.spring.io/milestone</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>spring-snapshots</id>
+			<name>Spring Snapshots</name>
+			<url>https://repo.spring.io/snapshot</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>https://repo.spring.io/milestone</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</pluginRepository>
+		<pluginRepository>
+			<id>spring-snapshots</id>
+			<name>Spring Snapshots</name>
+			<url>https://repo.spring.io/snapshot</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+		</pluginRepository>
+	</pluginRepositories>
+>>>>>>> 02dbdef (add file-config-server)
 
 </project>
