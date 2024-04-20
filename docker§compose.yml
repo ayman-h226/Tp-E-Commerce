@@ -1,0 +1,21 @@
+version: "3.5"
+services:
+#**** Database PostGresQL Mirth Connect ****
+  tp-e-commerce-db:
+    image: postgres:16
+    container_name: tp-e-commerce-db
+    hostname: tp-e-commerce
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+      - POSTGRES_HOST_AUTH_METHOD=trust
+#internal exposed port is always 5432 don't change anyway
+    expose:
+      - 5432
+#port 5435 for external tool like dbeavers access
+    ports:
+      - 5435:5432/tcp
+    #volumes:
+    #  - "./pg_data:/var/lib/postgresql/data"
