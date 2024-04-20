@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.fisa</groupId>
-	<artifactId>microservice-commandes</artifactId>
+	<artifactId>microservice-paiements</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>microservice-commandes</name>
-	<description>microservice pour les commandes</description>
+	<name>microservice-paiements</name>
+	<description>microservice pour les paiements</description>
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2023.0.1</spring-cloud.version>
