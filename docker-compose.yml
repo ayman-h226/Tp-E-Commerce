@@ -1,6 +1,6 @@
 version: "3.5"
 services:
-#**** Database PostGresQL Mirth Connect ****
+#**** Database PostGresQL ****
   tp-e-commerce:
     image: postgres:16
     container_name: db-tp-e-commerce
