@@ -17,7 +17,7 @@ public class ProduitController {
     ProduitRepository produitRepository;
 
 
-    @PostMapping("/api/produits")
+    @PostMapping("/api/produits/ajouter")
     public ResponseEntity<?> ajouterProduit(@RequestBody Produit produit, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             return new ResponseEntity<>("Erreur de validation: " + bindingResult.getAllErrors(), HttpStatus.BAD_REQUEST);
