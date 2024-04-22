@@ -21,15 +21,34 @@ docker-compose up -d
 ```
 
 - Lancer le microservice `config-file-server`
+```sh
+docker build -t config-file-server-img .
+```
 
 - Lancer le microservice `eureka-server`
+```sh
+docker build -t eureka-server-img .
+```
 
 - Lancer le microservice `microservide-produits`
+```sh
+docker build -t eureka-produits-img .
+```
 
 - Lancer le microservice `microservide-commandes`
+```sh
+docker build -t microservice-commandes-img .
+```
 
 - Lancer le microservice `microservide-paiements`
+```sh
+docker build -t microservice-paiements-img .
+```
 
+- Lancer le microservice `zuul-server`
+```sh
+docker build -t zuul-server-img .
+```
 
 
 
