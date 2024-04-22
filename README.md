@@ -8,6 +8,8 @@
 | [@aladinMJ](https://github.com/aladinMJ) | [@ayman-h226](https://github.com/ayman-h226)        | [@mayel15](https://github.com/mayel15)  |
 | alaaeddin.almajjo@uphf.fr  | aymanbenewende.doulkom@uphf.fr           | papemayeldiagne.thiam@uphf.fr  |
 
+
+
 # Configuration et lancement des microservices
 
 - Cloner le projet 
@@ -15,40 +17,14 @@
 git clone https://github.com/ayman-h226/Tp-E-Commerce.git
 ```
 
-- Lancer la base de données dockerisé 
+- Lancer les microservices avec `docker` à la racine du projet
 ```sh
 docker-compose up -d
 ```
 
-- Lancer le microservice `config-file-server`
-```sh
-docker build -t config-file-server-img .
-```
+# Compile, package, build
 
-- Lancer le microservice `eureka-server`
-```sh
-docker build -t eureka-server-img .
-```
+- En cas de changements des fichiers sources, il faut **recompiler** et **packager** le projet concerné avec `maven` afin pouvoir obtenir le `.jar` pour builder une nouvelle image docker
 
-- Lancer le microservice `microservide-produits`
-```sh
-docker build -t eureka-produits-img .
-```
-
-- Lancer le microservice `microservide-commandes`
-```sh
-docker build -t microservice-commandes-img .
-```
-
-- Lancer le microservice `microservide-paiements`
-```sh
-docker build -t microservice-paiements-img .
-```
-
-- Lancer le microservice `zuul-server`
-```sh
-docker build -t zuul-server-img .
-```
-
-
-
+- Exemple avec le microservice `zuul-server`
+![alt text](images/package-maven.png)
