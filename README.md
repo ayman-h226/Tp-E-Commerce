@@ -19,6 +19,10 @@ git clone https://github.com/ayman-h226/Tp-E-Commerce.git
 
 - Lancer les microservices avec `docker` à la racine du projet
 ```sh
+cd Tp-E-Commerce
+```
+
+```sh
 docker-compose up -d
 ```
 
