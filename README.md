@@ -24,7 +24,7 @@ docker-compose up -d
 
 # Compile, package, build
 
-- En cas de changements des fichiers sources, il faut **recompiler** et **packager** le projet concerné avec `maven` afin pouvoir obtenir le `.jar` pour builder une nouvelle image docker
+- En cas de changements des fichiers sources, il faut **recompiler** et **packager** le projet concerné avec `maven` afin de pouvoir obtenir le `.jar` pour builder une nouvelle image docker
 
 - Exemple avec le microservice `zuul-server`
 ![alt text](images/package-maven.png)
