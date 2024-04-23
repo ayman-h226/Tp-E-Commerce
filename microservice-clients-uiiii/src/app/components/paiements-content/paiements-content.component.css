@@ -1,0 +1,12 @@
+.buttons {
+    display: flex;
+    margin: 2rem 0;
+}
+
+.button-form {
+    margin-left: 1rem;
+}
+
+form, .table-width {
+    width: 100%;
+}

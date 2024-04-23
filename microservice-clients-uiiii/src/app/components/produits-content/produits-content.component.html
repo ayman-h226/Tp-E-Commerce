@@ -1,0 +1,33 @@
+<div class="buttons">
+    <button mat-flat-button color="primary" (click)="handleIsClickedToSee()">Voir</button>
+
+    <button mat-flat-button color="primary" class="button-form" (click)="handleIsClickedToAdd()">Ajouter</button>
+</div>
+
+<div *ngIf="isClickedToSee">
+    <app-produit-card></app-produit-card>
+</div>
+
+<div *ngIf="isClickedToAdd">
+    <form class="row g-3 center-form" (submit)="onSubmit()">
+        <div class="col-md-6">
+        <label for="titre" class="form-label">Titre</label>
+        <input type="text" class="form-control" id="titre"  name="titre" [(ngModel)]="titre">
+        </div>
+        <div class="col-md-6">
+            <label for="groupName" class="form-label">Description</label>
+            <input type="text" class="form-control" id="description" name="description" [(ngModel)]="description">
+        </div>
+        <div class="col-md-6">
+        <label for="inputCity" class="form-label">URL d'une image du produit (pas obligatoire)</label>
+        <input type="text" class="form-control" id="image" name="image" [(ngModel)]="image">
+        </div>
+        <div class="col-md-6">
+        <label for="inputZip" class="form-label">Prix</label>
+        <input type="number" class="form-control" id="prix" name="prix" [(ngModel)]="prix">
+        </div>
+        <div class="col-12">
+        <button type="submit" class="btn btn-primary" (click)="onSubmit()">Enregistrer</button>
+        </div>
+    </form>
+</div>

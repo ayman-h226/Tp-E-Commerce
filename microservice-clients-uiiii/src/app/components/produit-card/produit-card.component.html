@@ -1,0 +1,9 @@
+<div class="card" style="width: 18rem;">
+    <img [src]="image" class="card-img-top" alt="pas-de-photo-dispo">
+    <div class="card-body">
+      <h2 class="card-title">{{ titre }}</h2>
+      <h3 class="card-text">{{ prix + ' $' }} </h3>
+      <p class="card-text"> {{ description }}</p>
+      <button class="btn btn-warning" (click)="handleDeleteProduit()">Supprimer</button>
+    </div>
+</div>

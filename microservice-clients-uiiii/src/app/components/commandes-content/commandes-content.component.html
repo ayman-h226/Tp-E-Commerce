@@ -1,0 +1,72 @@
+<div class="buttons">
+    <button mat-flat-button color="primary" (click)="handleIsClickedToSee()">Voir</button>
+
+    <button mat-flat-button color="primary" class="button-form" (click)="handleIsClickedToAdd()">Ajouter</button>
+</div>
+
+<div *ngIf="isClickedToSee">
+    <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+        <!--- Note that these columns can be defined in any order.
+              The actual rendered columns are set as a property on the row definition" -->
+      
+        <!-- productId Column-->
+        <ng-container matColumnDef="productId">
+          <th mat-header-cell *matHeaderCellDef> Id Produit </th>
+          <td mat-cell *matCellDef="let element"> {{element.productId}} </td>
+        </ng-container>
+      
+        <!-- dateCommande Column -->
+        <ng-container matColumnDef="dateCommande">
+          <th mat-header-cell *matHeaderCellDef> Date </th>
+          <td mat-cell *matCellDef="let element"> {{element.dateCommande}} </td>
+        </ng-container>
+      
+        <!-- quantite Column -->
+        <ng-container matColumnDef="quantite">
+          <th mat-header-cell *matHeaderCellDef> Quantité </th>
+          <td mat-cell *matCellDef="let element"> {{element.quantite}} </td>
+        </ng-container>
+      
+        <!-- commandePayee Column -->
+        <ng-container matColumnDef="commandePayee">
+          <th mat-header-cell *matHeaderCellDef> Statut paiement </th>
+          <td mat-cell *matCellDef="let element"> {{element.commandePayee}} </td>
+        </ng-container>
+      
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+      
+      
+</div>
+
+<div *ngIf="isClickedToAdd">
+    <form class="row g-3 center-form" (submit)="onSubmit()">
+        <div class="col-md-6">
+            <label for="price" class="form-label">Produit</label>
+            <select class="form-select" id="price" [(ngModel)]="productId" name="prix">
+              <option selected>Choisir...</option>
+              <option *ngFor="let produit of produits" [value]="produit.id">{{ produit.titre }}</option>
+            </select>
+        </div>
+        <!--<div class="col-md-6">
+            <label for="groupName" class="form-label">Date de la commande</label>
+            <input type="text" class="form-control" id="dateCommande" name="dateCommande" [(ngModel)]="dateCommande">
+        </div>-->
+        <div class="col-md-6">
+        <label for="inputCity" class="form-label">Quantite</label>
+        <input type="number" class="form-control" id="quantite" name="quantite" [(ngModel)]="quantite">
+        </div>
+        <div class="col-md-6">
+            <label for="price" class="form-label">Statut paiement</label>
+            <select class="form-select" id="price" [(ngModel)]="commandePayee" name="commandePayee">
+              <option value="false" selected>Non payé</option>
+              <option value="true" selected>Payé</option>
+            </select>
+        </div>
+        <div class="col-12">
+        <button type="submit" class="btn btn-primary" (click)="onSubmit()">Commander</button>
+        </div>
+    </form>
+</div>
