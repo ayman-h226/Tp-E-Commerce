@@ -25,6 +25,7 @@ services:
       - config-file-server
     environment:
       spring.cloud.config.uri: http://config-file-server:9101
+      EUREKA_HOST: eureka-server
 
   pgdb:
     image: postgres:16
