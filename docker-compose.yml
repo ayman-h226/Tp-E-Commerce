@@ -3,6 +3,7 @@ services:
 
   config-file-server:
     image: config-file-server
+    restart: always
     build:
       context: ./config-file-server
       dockerfile: Dockerfile
@@ -45,6 +46,7 @@ services:
 
   microservice-produits:
     image: microservice-produits
+    restart: always
     build:
       context: ./microservice-produits
       dockerfile: Dockerfile
@@ -64,6 +66,7 @@ services:
 
   microservice-commandes:
     image: microservice-commandes
+    restart: always
     build:
       context: ./microservice-commandes
       dockerfile: Dockerfile
@@ -83,6 +86,7 @@ services:
 
   microservice-paiements:
     image: microservice-paiements
+    restart: always
     build:
       context: ./microservice-paiements
       dockerfile: Dockerfile
@@ -102,6 +106,7 @@ services:
 
   zuul-server:
     image: zuul-server
+    restart: always
     build:
       context: ./zuul-server
       dockerfile: Dockerfile
