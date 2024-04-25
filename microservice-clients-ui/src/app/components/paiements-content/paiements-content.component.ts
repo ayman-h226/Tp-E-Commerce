@@ -99,12 +99,19 @@ export class PaiementsContentComponent {
         return response.json();
       })
       .then(data => {
+        if (this.idCommande === '' || this.numeroCarte === ''){
+          alert('Un des champs est vide');
+          return;
+        };
+
         alert('Produit enregistré avec succès !');
         console.log('Réponse du serveur:', data);
         // Réinitialiser le formulaire après l'envoi des données avec succès
         this.idCommande = '';
         this.montant = '';
         this.numeroCarte = '';
+        
+        window.location.reload()
       })
       .catch(error => {
         //alert('Erreur lors de l\'enregistrement du paiement !');

@@ -10,3 +10,7 @@
 form {
     width: 100%;
 }
+
+.center-card {
+    justify-content: center;
+}

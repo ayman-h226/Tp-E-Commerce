@@ -38,7 +38,7 @@ export class CommandesContentComponent {
 
   productId: string = '';
   dateCommande: Date = new Date();
-  quantite: string = '';
+  quantite: string = '1';
   commandePayee: boolean = false;
 
   paiements: any[] = [];
@@ -103,6 +103,11 @@ export class CommandesContentComponent {
         return response.json();
       })
       .then(data => {
+
+        if (this.productId === '' || this.quantite === ''){
+          alert('Un des champs est vide');
+          return;
+        };
         alert('Commande enregistrée avec succès !');
         console.log('Réponse du serveur:', data);
         // Réinitialiser le formulaire après l'envoi des données avec succès
@@ -110,6 +115,8 @@ export class CommandesContentComponent {
         this.dateCommande = new Date();
         this.quantite = '';
         this.commandePayee = false;
+
+        window.location.reload()
       })
       .catch(error => {
         alert('Erreur lors de l\'enregistrement de la commade !');

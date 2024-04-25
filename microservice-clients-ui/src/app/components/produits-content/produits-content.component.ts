@@ -72,6 +72,11 @@ export class ProduitsContentComponent {
         return response.json();
       })
       .then(data => {
+        if (this.titre === '' || this.description === '' || this.image === '' || this.prix === null) {
+          alert('Un des champs est vide');
+          return;
+        };
+
         alert('Produit enregistré avec succès !');
         console.log('Réponse du serveur:', data);
         // Réinitialiser le formulaire après l'envoi des données avec succès
@@ -79,6 +84,8 @@ export class ProduitsContentComponent {
         this.description = '';
         this.image = '';
         this.prix = 0;
+
+        window.location.reload();
       })
       .catch(error => {
         alert('Erreur lors de l\'enregistrement du produit !');
