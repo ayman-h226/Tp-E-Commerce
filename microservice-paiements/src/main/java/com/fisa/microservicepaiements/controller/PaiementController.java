@@ -2,12 +2,15 @@ package com.fisa.microservicepaiements.controller;
 
 import com.fisa.microservicepaiements.model.Paiement;
 import com.fisa.microservicepaiements.repository.PaiementRepository;
+import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @RestController
@@ -22,7 +25,10 @@ public class PaiementController {
         // Vérifions s'il y a déjà un paiement enregistré pour cette commande
         Optional<Paiement> paiementExistant = Optional.ofNullable(paiementRepository.findByIdCommande(paiement.getIdCommande()));
         if (paiementExistant.isPresent()) {
-            return new ResponseEntity<>("Cette commande est déjà payée", HttpStatus.BAD_REQUEST);
+            Map<String, String> mapMessage = new HashMap<>();
+            mapMessage.put("error", "Cette commande est déjà payée");
+            JSONObject message = new JSONObject(mapMessage);
+            return new ResponseEntity<>(message, HttpStatus.BAD_REQUEST);
         }
 
         // Enregistrer le paiement
@@ -37,7 +43,10 @@ public class PaiementController {
     public ResponseEntity<?> commandes() {
         List<Paiement> listePaiements = paiementRepository.findAll();
         if (listePaiements.isEmpty()) {
-            return new ResponseEntity<>("Aucun paiement n'a été trouvé", HttpStatus.NOT_FOUND);
+            Map<String, String> mapMessage = new HashMap<>();
+            mapMessage.put("error", "Aucun paiement n'a été trouvé");
+            JSONObject message = new JSONObject(mapMessage);
+            return new ResponseEntity<>(message, HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<>(listePaiements, HttpStatus.OK);
     }
