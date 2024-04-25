@@ -9,7 +9,13 @@
 
         <!--- Note that these columns can be defined in any order.
               The actual rendered columns are set as a property on the row definition" -->
-      
+
+        <!-- idCommande Column-->
+        <ng-container matColumnDef="idPaiement">
+          <th mat-header-cell *matHeaderCellDef> Id Paiement </th>
+          <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+        </ng-container>
+
         <!-- idCommande Column-->
         <ng-container matColumnDef="idCommande">
           <th mat-header-cell *matHeaderCellDef> Id Commande </th>
@@ -37,9 +43,9 @@
     <form class="row g-3 center-form" (submit)="onSubmit()">
         <div class="col-md-6">
             <label for="price" class="form-label">Commande</label>
-            <select class="form-select" id="idCommande" [(ngModel)]="idCommande" name="idCommande">
+            <select class="form-select" id="idCommande" [(ngModel)]="idCommande" (change)="onCommandeChange()" name="idCommande">
               <option selected>Choisir...</option>
-              <option *ngFor="let commande of commandes" [value]="commande.id">{{ commande.productId }}</option>
+              <option *ngFor="let commande of commandes" [value]="commande.id">{{ commande.id }}</option>
             </select>
         </div>
         <div class="col-md-6">

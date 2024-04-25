@@ -3,14 +3,31 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTableModule } from '@angular/material/table';
-import { MICROSERVICE_COMMANDES_API_URL, MICROSERVICE_PAIEMENTS_API_URL } from 'src/app/constants';
-export interface PeriodicElement {
+import { MICROSERVICE_COMMANDES_API_URL, MICROSERVICE_PAIEMENTS_API_URL, MICROSERVICE_PRODUITS_API_URL } from 'src/app/constants';
+export interface Produit {
+  id: number;
+  titre: string;
+  description: string;
+  image: string;
+  prix: number;
+}
+
+export interface Commande {
+  id: number
+  productId: number;
+  quantite: number;
+  dateCommande?: Date;
+  commandePayee: boolean;
+}
+
+export interface Paiement {
+  id: number;
   idCommande: number;
   montant: number;
   numeroCarte: string;
 }
 
-const ELEMENT_DATA: PeriodicElement[] = [
+/*const ELEMENT_DATA: Paiement[] = [
   {idCommande: 1, montant: 1.0079, numeroCarte: 'H'},
   {idCommande: 2, montant: 4.0026, numeroCarte: 'He'},
   {idCommande: 3, montant: 6.941, numeroCarte: 'Li'},
@@ -21,7 +38,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
   {idCommande: 8, montant: 15.9994, numeroCarte: 'O'},
   {idCommande: 9, montant: 18.9984, numeroCarte: 'F'},
   {idCommande: 10, montant: 20.1797, numeroCarte: 'Ne'},
-];
+];*/
 
 @Component({
   selector: 'app-paiements-content',
@@ -38,10 +55,11 @@ export class PaiementsContentComponent {
   montant: string = '';
   numeroCarte: string = '';
 
-  paiements: any[] = [];
-  commandes: any[] = [];
+  paiements = [];
+  commandes: Commande[] = [];
+  produits = [];
 
-  displayedColumns: string[] = ['idCommande', 'montant', 'numeroCarte'];
+  displayedColumns: string[] = ['idPaiement', 'idCommande', 'montant', 'numeroCarte'];
   //dataSource: any[] = ELEMENT_DATA;
   dataSource: any[] = [];
 
@@ -67,6 +85,37 @@ export class PaiementsContentComponent {
       .catch(error => {
         console.error('Erreur lors de la récupération des données commandes depuis l\'API :', error);
       });
+
+    fetch(MICROSERVICE_PRODUITS_API_URL+'/produits')
+      .then(response => response.json())
+      .then(data => {
+        this.produits = data; // Stockage des données dans le tableau d'options
+        console.log("Produits récupérées depuis l\'API :", data);
+      })
+      .catch(error => {
+        console.error('Erreur lors de la récupération des données Produits depuis l\'API :', error);
+      });
+  }
+
+  isProduit(obj: any): obj is Produit {
+    return 'id' in obj && 'titre' in obj && 'description' in obj && 'image' in obj && 'prix' in obj;
+  }
+
+  onCommandeChange() {
+    let selectedCommande = this.commandes.find((commande: Commande) => Number(this.idCommande) === commande.id);
+    let quantite = selectedCommande?.quantite;
+
+    if (quantite) {
+      let concernedProduct: Produit | undefined | any = this.produits.find((produit: Produit) => Number(selectedCommande?.productId) === produit.id);
+
+      if (this.isProduit(concernedProduct)) {
+      this.montant = String(quantite * concernedProduct.prix);
+      } else {
+        console.error('Le produit concerné n\'est pas du type Produit.');
+      }
+    } else {
+      console.error('Quantité non trouvée pour la commande sélectionnée.');
+    }
   }
 
   handleIsClickedToAdd() {
@@ -84,6 +133,7 @@ export class PaiementsContentComponent {
       montant: this.montant,
       numeroCarte: this.numeroCarte,
     };
+
 
     fetch(MICROSERVICE_PAIEMENTS_API_URL+'/paiements/ajouter', {
       method: 'POST',
@@ -104,7 +154,7 @@ export class PaiementsContentComponent {
           return;
         };
 
-        alert('Produit enregistré avec succès !');
+        alert('Paiement enregistré avec succès !');
         console.log('Réponse du serveur:', data);
         // Réinitialiser le formulaire après l'envoi des données avec succès
         this.idCommande = '';
@@ -114,7 +164,7 @@ export class PaiementsContentComponent {
         window.location.reload()
       })
       .catch(error => {
-        //alert('Erreur lors de l\'enregistrement du paiement !');
+        alert('Erreur lors de l\'enregistrement du paiement !');
         console.error('Erreur lors de l\'envoi des données:', error);
       });
   }

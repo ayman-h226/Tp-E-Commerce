@@ -12,7 +12,7 @@ export interface PeriodicElement {
   commandePayee: string;
 }
 
-const ELEMENT_DATA: PeriodicElement[] = [
+/*const ELEMENT_DATA: PeriodicElement[] = [
   {productId: 1, dateCommande: 'Hydrogen', quantite: 1.0079, commandePayee: 'H'},
   {productId: 2, dateCommande: 'Helium', quantite: 4.0026, commandePayee: 'He'},
   {productId: 3, dateCommande: 'Lithium', quantite: 6.941, commandePayee: 'Li'},
@@ -23,7 +23,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
   {productId: 8, dateCommande: 'Oxygen', quantite: 15.9994, commandePayee: 'O'},
   {productId: 9, dateCommande: 'Fluorine', quantite: 18.9984, commandePayee: 'F'},
   {productId: 10, dateCommande: 'Neon', quantite: 20.1797, commandePayee: 'Ne'},
-];
+];*/
 
 @Component({
   selector: 'app-commandes-content',
@@ -44,7 +44,7 @@ export class CommandesContentComponent {
   paiements: any[] = [];
   produits: any[] = [];
 
-  displayedColumns: string[] = ['productId', 'dateCommande', 'quantite', 'commandePayee'];
+  displayedColumns: string[] = ['idCommande', 'productId', 'dateCommande', 'quantite', 'commandePayee'];
   //dataSource: any[] = ELEMENT_DATA;
   dataSource: any[] = [];
 
