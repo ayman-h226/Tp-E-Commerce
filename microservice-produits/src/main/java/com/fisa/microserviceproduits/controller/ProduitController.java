@@ -1,6 +1,5 @@
 package com.fisa.microserviceproduits.controller;
 
-import com.fisa.microserviceproduits.model.Message;
 import com.fisa.microserviceproduits.model.Produit;
 import com.fisa.microserviceproduits.repository.ProduitRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,51 +20,54 @@ public class ProduitController {
     @PostMapping("/api/produits/ajouter")
     public ResponseEntity<?> ajouterProduit(@RequestBody Produit produit, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
-            return new ResponseEntity<>(new Message("Erreur de validation: " + bindingResult.getAllErrors()), HttpStatus.BAD_REQUEST);
+            return new ResponseEntity<>("Erreur de validation: " + bindingResult.getAllErrors(), HttpStatus.BAD_REQUEST);
         }
 
         if (produit == null) {
-            return new ResponseEntity<>(new Message("Le produit ne peut pas être nul"), HttpStatus.BAD_REQUEST);
+            return new ResponseEntity<>("Le produit ne peut pas être nul", HttpStatus.BAD_REQUEST);
         }
 
         try {
             Produit nouveauProduit = produitRepository.save(produit);
             return new ResponseEntity<>(nouveauProduit, HttpStatus.CREATED);
         } catch (Exception e) {
-            return new ResponseEntity<>(new Message("Une erreur s'est produite lors de l'ajout du produit: " + e.getMessage()), HttpStatus.INTERNAL_SERVER_ERROR);
+            return new ResponseEntity<>("Une erreur s'est produite lors de l'ajout du produit: " + e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
     @CrossOrigin
     @GetMapping("/api/produits")
+    @ResponseBody
     public ResponseEntity<?> produits() {
         List<Produit> listeProduits = produitRepository.findAll();
         if (listeProduits.isEmpty()) {
-            return new ResponseEntity<>(new Message("Aucun produit n'a été trouvé"), HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>("Aucun produit n'a été trouvé", HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<>(listeProduits, HttpStatus.OK);
     }
 
     @CrossOrigin
     @GetMapping("/api/produits/{id}")
+    @ResponseBody
     public ResponseEntity<?> getProduitById(@PathVariable("id") Long id) {
         Optional<Produit> produit = produitRepository.findById(id);
         if (produit.isPresent()) {
             return new ResponseEntity<>(produit.get(), HttpStatus.OK);
         } else {
-            return new ResponseEntity<>(new Message("Le produit avec l'ID " + id + " n'existe pas"), HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>("Le produit avec l'ID " + id + " n'existe pas", HttpStatus.NOT_FOUND);
         }
     }
 
     @CrossOrigin
     @DeleteMapping("/api/produits/{id}")
+    @ResponseBody
     public ResponseEntity<?> supprimerProduit(@PathVariable("id") Long id) {
         if (produitRepository.existsById(id)) {
             produitRepository.deleteById(id);
-            return new ResponseEntity<>(new Message("Le produit avec l'ID " + id + " a été supprimé avec succès"), HttpStatus.OK);
+            return new ResponseEntity<>("Le produit avec l'ID " + id + " a été supprimé avec succès", HttpStatus.OK);
         } else {
 
-            return new ResponseEntity<>(new Message("Le produit avec l'ID " + id + " n'existe pas"), HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>("Le produit avec l'ID " + id + " n'existe pas", HttpStatus.NOT_FOUND);
         }
     }
 

@@ -1,6 +1,5 @@
 package com.fisa.microservicepaiements.controller;
 
-import com.fisa.microservicepaiements.model.Message;
 import com.fisa.microservicepaiements.model.Paiement;
 import com.fisa.microservicepaiements.repository.PaiementRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,11 +17,12 @@ public class PaiementController {
 
     @CrossOrigin
     @PostMapping("/api/paiements/ajouter")
+    @ResponseBody
     public ResponseEntity<?> payerUneCommande(@RequestBody Paiement paiement) {
         // Vérifions s'il y a déjà un paiement enregistré pour cette commande
         Optional<Paiement> paiementExistant = Optional.ofNullable(paiementRepository.findByIdCommande(paiement.getIdCommande()));
         if (paiementExistant.isPresent()) {
-            return new ResponseEntity<>(new Message("Cette commande est déjà payée"), HttpStatus.BAD_REQUEST);
+            return new ResponseEntity<>("Cette commande est déjà payée", HttpStatus.BAD_REQUEST);
         }
 
         // Enregistrer le paiement
@@ -33,10 +33,11 @@ public class PaiementController {
 
     @CrossOrigin
     @GetMapping("/api/paiements")
+    @ResponseBody
     public ResponseEntity<?> commandes() {
         List<Paiement> listePaiements = paiementRepository.findAll();
         if (listePaiements.isEmpty()) {
-            return new ResponseEntity<>(new Message("Aucun paiement n'a été trouvé"), HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>("Aucun paiement n'a été trouvé", HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<>(listePaiements, HttpStatus.OK);
     }

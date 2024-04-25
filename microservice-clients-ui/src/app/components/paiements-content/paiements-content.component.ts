@@ -107,7 +107,7 @@ export class PaiementsContentComponent {
         this.numeroCarte = '';
       })
       .catch(error => {
-        alert('Erreur lors de l\'enregistrement du paiement !');
+        //alert('Erreur lors de l\'enregistrement du paiement !');
         console.error('Erreur lors de l\'envoi des données:', error);
       });
   }
