@@ -1,4 +1,5 @@
 com/fisa/microservicepaiements/repository/PaiementRepository.class
 com/fisa/microservicepaiements/model/Paiement.class
 com/fisa/microservicepaiements/MicroservicePaiementsApplication.class
+com/fisa/microservicepaiements/model/Message.class
 com/fisa/microservicepaiements/controller/PaiementController.class

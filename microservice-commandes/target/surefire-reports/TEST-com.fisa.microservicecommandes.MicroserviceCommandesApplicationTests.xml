@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.fisa.microservicecommandes.MicroserviceCommandesApplicationTests" time="3.282" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.fisa.microservicecommandes.MicroserviceCommandesApplicationTests" time="4.102" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="/Users/papemayeldiagnethiam/Library/Java/JavaVirtualMachines/openjdk-22/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/papemayeldiagnethiam/Desktop/FISA INFO 4/Architecture Service/Tp-E-Commerce/microservice-commandes/target/surefire/surefirebooter-20240422170832646_3.jar /Users/papemayeldiagnethiam/Desktop/FISA INFO 4/Architecture Service/Tp-E-Commerce/microservice-commandes/target/surefire 2024-04-22T17-08-32_612-jvmRun1 surefire-20240422170832646_1tmp surefire_0-20240422170832646_2tmp"/>
+    <property name="sun.java.command" value="/Users/papemayeldiagnethiam/Desktop/FISA INFO 4/Architecture Service/Tp-E-Commerce/microservice-commandes/target/surefire/surefirebooter-20240425171128941_3.jar /Users/papemayeldiagnethiam/Desktop/FISA INFO 4/Architecture Service/Tp-E-Commerce/microservice-commandes/target/surefire 2024-04-25T17-11-28_900-jvmRun1 surefire-20240425171128941_1tmp surefire_0-20240425171128941_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/papemayeldiagnethiam/Desktop/FISA INFO 4/Architecture Service/Tp-E-Commerce/microservice-commandes/target/test-classes:/Users/papemayeldiagnethiam/Desktop/FISA INFO 4/Architecture Service/Tp-E-Commerce/microservice-commandes/target/classes:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.2.5/spring-boot-starter-data-jpa-3.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.2.5/spring-boot-starter-aop-3.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/spring-aop/6.1.6/spring-aop-6.1.6.jar:/Users/papemayeldiagnethiam/.m2/repository/org/aspectj/aspectjweaver/1.9.22/aspectjweaver-1.9.22.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.2.5/spring-boot-starter-jdbc-3.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/spring-jdbc/6.1.6/spring-jdbc-6.1.6.jar:/Users/papemayeldiagnethiam/.m2/repository/org/hibernate/orm/hibernate-core/6.4.4.Final/hibernate-core-6.4.4.Final.jar:/Users/papemayeldiagnethiam/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/Users/papemayeldiagnethiam/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/Users/papemayeldiagnethiam/.m2/repository/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar:/Users/papemayeldiagnethiam/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/Users/papemayeldiagnethiam/.m2/repository/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar:/Users/papemayeldiagnethiam/.m2/repository/com/fasterxml/classmate/1.6.0/classmate-1.6.0.jar:/Users/papemayeldiagnethiam/.m2/repository/net/bytebuddy/byte-buddy/1.14.13/byte-buddy-1.14.13.jar:/Users/papemayeldiagnethiam/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.jar:/Users/papemayeldiagnethiam/.m2/repository/org/glassfish/jaxb/txw2/4.0.5/txw2-4.0.5.jar:/Users/papemayeldiagnethiam/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/Users/papemayeldiagnethiam/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/Users/papemayeldiagnethiam/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/data/spring-data-jpa/3.2.5/spring-data-jpa-3.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/data/spring-data-commons/3.2.5/spring-data-commons-3.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/spring-orm/6.1.6/spring-orm-6.1.6.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/spring-context/6.1.6/spring-context-6.1.6.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/spring-expression/6.1.6/spring-expression-6.1.6.jar:/Users/papemayeldiagnethiam/.m2/repository/io/micrometer/micrometer-observation/1.12.5/micrometer-observation-1.12.5.jar:/Users/papemayeldiagnethiam/.m2/repository/io/micrometer/micrometer-commons/1.12.5/micrometer-commons-1.12.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/spring-tx/6.1.6/spring-tx-6.1.6.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/spring-beans/6.1.6/spring-beans-6.1.6.jar:/Users/papemayeldiagnethiam/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/Users/papemayeldiagnethiam/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/spring-aspects/6.1.6/spring-aspects-6.1.6.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/boot/spring-boot-starter-data-rest/3.2.5/spring-boot-starter-data-rest-3.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.2.5/spring-boot-starter-web-3.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.2.5/spring-boot-starter-json-3.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.4/jackson-datatype-jdk8-2.15.4.jar:/Users/papemayeldiagnethiam/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.4/jackson-datatype-jsr310-2.15.4.jar:/Users/papemayeldiagnethiam/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.4/jackson-module-parameter-names-2.15.4.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.2.5/spring-boot-starter-tomcat-3.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.20/tomcat-embed-core-10.1.20.jar:/Users/papemayeldiagnethiam/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.20/tomcat-embed-el-10.1.20.jar:/Users/papemayeldiagnethiam/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.20/tomcat-embed-websocket-10.1.20.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/spring-web/6.1.6/spring-web-6.1.6.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/spring-webmvc/6.1.6/spring-webmvc-6.1.6.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/data/spring-data-rest-webmvc/4.2.5/spring-data-rest-webmvc-4.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/data/spring-data-rest-core/4.2.5/spring-data-rest-core-4.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/hateoas/spring-hateoas/2.2.2/spring-hateoas-2.2.2.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/plugin/spring-plugin-core/3.0.0/spring-plugin-core-3.0.0.jar:/Users/papemayeldiagnethiam/.m2/repository/org/atteo/evo-inflector/1.3/evo-inflector-1.3.jar:/Users/papemayeldiagnethiam/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.4/jackson-annotations-2.15.4.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/4.1.1/spring-cloud-starter-netflix-eureka-client-4.1.1.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/cloud/spring-cloud-starter/4.1.2/spring-cloud-starter-4.1.2.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/cloud/spring-cloud-context/4.1.2/spring-cloud-context-4.1.2.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/security/spring-security-crypto/6.2.4/spring-security-crypto-6.2.4.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/cloud/spring-cloud-commons/4.1.2/spring-cloud-commons-4.1.2.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/security/spring-security-rsa/1.1.2/spring-security-rsa-1.1.2.jar:/Users/papemayeldiagnethiam/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.77/bcprov-jdk18on-1.77.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/4.1.1/spring-cloud-netflix-eureka-client-4.1.1.jar:/Users/papemayeldiagnethiam/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.3/httpclient5-5.2.3.jar:/Users/papemayeldiagnethiam/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar:/Users/papemayeldiagnethiam/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar:/Users/papemayeldiagnethiam/.m2/repository/com/netflix/eureka/eureka-client/2.0.2/eureka-client-2.0.2.jar:/Users/papemayeldiagnethiam/.m2/repository/com/netflix/netflix-commons/netflix-eventbus/0.3.0/netflix-eventbus-0.3.0.jar:/Users/papemayeldiagnethiam/.m2/repository/com/netflix/netflix-commons/netflix-infix/0.3.0/netflix-infix-0.3.0.jar:/Users/papemayeldiagnethiam/.m2/repository/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar:/Users/papemayeldiagnethiam/.m2/repository/joda-time/joda-time/2.3/joda-time-2.3.jar:/Users/papemayeldiagnethiam/.m2/repository/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar:/Users/papemayeldiagnethiam/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/Users/papemayeldiagnethiam/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/papemayeldiagnethiam/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/papemayeldiagnethiam/.m2/repository/org/apache/commons/commons-math/2.2/commons-math-2.2.jar:/Users/papemayeldiagnethiam/.m2/repository/com/thoughtworks/xstream/xstream/1.4.19/xstream-1.4.19.jar:/Users/papemayeldiagnethiam/.m2/repository/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.jar:/Users/papemayeldiagnethiam/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/Users/papemayeldiagnethiam/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/jakarta.ws.rs-api-3.1.0.jar:/Users/papemayeldiagnethiam/.m2/repository/com/netflix/servo/servo-core/0.12.21/servo-core-0.12.21.jar:/Users/papemayeldiagnethiam/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/papemayeldiagnethiam/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/papemayeldiagnethiam/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/Users/papemayeldiagnethiam/.m2/repository/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar:/Users/papemayeldiagnethiam/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/papemayeldiagnethiam/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/papemayeldiagnethiam/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.4/jackson-core-2.15.4.jar:/Users/papemayeldiagnethiam/.m2/repository/org/codehaus/jettison/jettison/1.5.4/jettison-1.5.4.jar:/Users/papemayeldiagnethiam/.m2/repository/com/netflix/eureka/eureka-core/2.0.2/eureka-core-2.0.2.jar:/Users/papemayeldiagnethiam/.m2/repository/com/fasterxml/woodstox/woodstox-core/6.2.1/woodstox-core-6.2.1.jar:/Users/papemayeldiagnethiam/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/cloud/spring-cloud-starter-loadbalancer/4.1.2/spring-cloud-starter-loadbalancer-4.1.2.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/cloud/spring-cloud-loadbalancer/4.1.2/spring-cloud-loadbalancer-4.1.2.jar:/Users/papemayeldiagnethiam/.m2/repository/io/projectreactor/reactor-core/3.6.5/reactor-core-3.6.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/papemayeldiagnethiam/.m2/repository/io/projectreactor/addons/reactor-extra/3.5.1/reactor-extra-3.5.1.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/boot/spring-boot-starter-cache/3.2.5/spring-boot-starter-cache-3.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/spring-context-support/6.1.6/spring-context-support-6.1.6.jar:/Users/papemayeldiagnethiam/.m2/repository/com/stoyanr/evictor/1.0.0/evictor-1.0.0.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/cloud/spring-cloud-starter-config/4.1.1/spring-cloud-starter-config-4.1.1.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/cloud/spring-cloud-config-client/4.1.1/spring-cloud-config-client-4.1.1.jar:/Users/papemayeldiagnethiam/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.4/jackson-databind-2.15.4.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/cloud/spring-cloud-starter-bootstrap/4.1.2/spring-cloud-starter-bootstrap-4.1.2.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/boot/spring-boot-devtools/3.2.5/spring-boot-devtools-3.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/boot/spring-boot/3.2.5/spring-boot-3.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.2.5/spring-boot-autoconfigure-3.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/postgresql/postgresql/42.6.2/postgresql-42.6.2.jar:/Users/papemayeldiagnethiam/.m2/repository/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0.jar:/Users/papemayeldiagnethiam/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.2.5/spring-boot-starter-test-3.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/boot/spring-boot-starter/3.2.5/spring-boot-starter-3.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.2.5/spring-boot-starter-logging-3.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar:/Users/papemayeldiagnethiam/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar:/Users/papemayeldiagnethiam/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1.jar:/Users/papemayeldiagnethiam/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar:/Users/papemayeldiagnethiam/.m2/repository/org/slf4j/jul-to-slf4j/2.0.13/jul-to-slf4j-2.0.13.jar:/Users/papemayeldiagnethiam/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/boot/spring-boot-test/3.2.5/spring-boot-test-3.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.2.5/spring-boot-test-autoconfigure-3.2.5.jar:/Users/papemayeldiagnethiam/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/Users/papemayeldiagnethiam/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar:/Users/papemayeldiagnethiam/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar:/Users/papemayeldiagnethiam/.m2/repository/net/minidev/json-smart/2.5.1/json-smart-2.5.1.jar:/Users/papemayeldiagnethiam/.m2/repository/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.jar:/Users/papemayeldiagnethiam/.m2/repository/org/ow2/asm/asm/9.6/asm-9.6.jar:/Users/papemayeldiagnethiam/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/Users/papemayeldiagnethiam/.m2/repository/org/awaitility/awaitility/4.2.1/awaitility-4.2.1.jar:/Users/papemayeldiagnethiam/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/papemayeldiagnethiam/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/papemayeldiagnethiam/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/papemayeldiagnethiam/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/papemayeldiagnethiam/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/papemayeldiagnethiam/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/papemayeldiagnethiam/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/papemayeldiagnethiam/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/papemayeldiagnethiam/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/Users/papemayeldiagnethiam/.m2/repository/org/mockito/mockito-core/5.7.0/mockito-core-5.7.0.jar:/Users/papemayeldiagnethiam/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.13/byte-buddy-agent-1.14.13.jar:/Users/papemayeldiagnethiam/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/papemayeldiagnethiam/.m2/repository/org/mockito/mockito-junit-jupiter/5.7.0/mockito-junit-jupiter-5.7.0.jar:/Users/papemayeldiagnethiam/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/Users/papemayeldiagnethiam/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/spring-core/6.1.6/spring-core-6.1.6.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/spring-jcl/6.1.6/spring-jcl-6.1.6.jar:/Users/papemayeldiagnethiam/.m2/repository/org/springframework/spring-test/6.1.6/spring-test-6.1.6.jar:/Users/papemayeldiagnethiam/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:"/>
@@ -33,7 +33,7 @@
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/papemayeldiagnethiam/Desktop/FISA INFO 4/Architecture Service/Tp-E-Commerce/microservice-commandes/target/surefire/surefirebooter-20240422170832646_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/papemayeldiagnethiam/Desktop/FISA INFO 4/Architecture Service/Tp-E-Commerce/microservice-commandes/target/surefire/surefirebooter-20240425171128941_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="22+36-2370"/>
@@ -53,7 +53,7 @@
     <property name="user.dir" value="/Users/papemayeldiagnethiam/Desktop/FISA INFO 4/Architecture Service/Tp-E-Commerce/microservice-commandes"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="4370"/>
+    <property name="PID" value="61768"/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/papemayeldiagnethiam/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
@@ -66,10 +66,10 @@
     <property name="java.class.version" value="66.0"/>
     <property name="LOGGED_APPLICATION_NAME" value="[microservice-commandes] "/>
   </properties>
-  <testcase name="contextLoads" classname="com.fisa.microservicecommandes.MicroserviceCommandesApplicationTests" time="0.296">
-    <system-out><![CDATA[17:08:32.975 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.fisa.microservicecommandes.MicroserviceCommandesApplicationTests]: MicroserviceCommandesApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:08:33.014 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.fisa.microservicecommandes.MicroserviceCommandesApplication for test class com.fisa.microservicecommandes.MicroserviceCommandesApplicationTests
-17:08:33.078 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+  <testcase name="contextLoads" classname="com.fisa.microservicecommandes.MicroserviceCommandesApplicationTests" time="0.373">
+    <system-out><![CDATA[17:11:29.308 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.fisa.microservicecommandes.MicroserviceCommandesApplicationTests]: MicroserviceCommandesApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:11:29.351 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.fisa.microservicecommandes.MicroserviceCommandesApplication for test class com.fisa.microservicecommandes.MicroserviceCommandesApplicationTests
+17:11:29.422 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -79,47 +79,476 @@
  =========|_|==============|___/=/_/_/_/
 &amp#27;[32m :: Spring Boot :: &amp#27;[39m              &amp#27;[2m (v3.2.5)&amp#27;[0;39m
 
-&amp#27;[2m2024-04-22T17:08:33.391+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mc.c.c.ConfigServicePropertySourceLocator&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Fetching config from server at : http://localhost:9101
-&amp#27;[2m2024-04-22T17:08:33.992+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mc.c.c.ConfigServicePropertySourceLocator&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Located environment: name=microservice-commandes, profiles=[default], label=null, version=da0a65f7e92ce0585902e95e917de3433212f2d5, state=null
-&amp#27;[2m2024-04-22T17:08:33.993+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mb.c.PropertySourceBootstrapConfiguration&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/mayel15/config-server-repo.git/microservice-commandes.properties'}]
-&amp#27;[2m2024-04-22T17:08:34.003+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36m.m.MicroserviceCommandesApplicationTests&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m No active profile set, falling back to 1 default profile: "default"
-&amp#27;[2m2024-04-22T17:08:34.266+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36m.s.d.r.c.RepositoryConfigurationDelegate&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-&amp#27;[2m2024-04-22T17:08:34.329+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36m.s.d.r.c.RepositoryConfigurationDelegate&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
-&amp#27;[2m2024-04-22T17:08:34.436+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.s.cloud.context.scope.GenericScope    &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m BeanFactory id=6cebb8d9-895a-3e83-ab65-f5e52a66ef0c
-&amp#27;[2m2024-04-22T17:08:34.483+02:00&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mtrationDelegate$BeanPostProcessorChecker&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
-&amp#27;[2m2024-04-22T17:08:34.484+02:00&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mtrationDelegate$BeanPostProcessorChecker&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
-&amp#27;[2m2024-04-22T17:08:34.549+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.hibernate.jpa.internal.util.LogHelper &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
-&amp#27;[2m2024-04-22T17:08:34.582+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36morg.hibernate.Version                   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HHH000412: Hibernate ORM core version 6.4.4.Final
-&amp#27;[2m2024-04-22T17:08:34.595+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.h.c.internal.RegionFactoryInitiator   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HHH000026: Second-level cache disabled
-&amp#27;[2m2024-04-22T17:08:34.689+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.s.o.j.p.SpringPersistenceUnitInfo     &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
-&amp#27;[2m2024-04-22T17:08:34.700+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.zaxxer.hikari.HikariDataSource      &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HikariPool-1 - Starting...
-&amp#27;[2m2024-04-22T17:08:34.776+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.zaxxer.hikari.pool.HikariPool       &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ec3a4c2
-&amp#27;[2m2024-04-22T17:08:34.776+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.zaxxer.hikari.HikariDataSource      &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HikariPool-1 - Start completed.
-&amp#27;[2m2024-04-22T17:08:34.797+02:00&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36morg.hibernate.orm.deprecation           &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-&amp#27;[2m2024-04-22T17:08:35.124+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.h.e.t.j.p.i.JtaPlatformInitiator      &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-&amp#27;[2m2024-04-22T17:08:35.175+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mj.LocalContainerEntityManagerFactoryBean&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
-&amp#27;[2m2024-04-22T17:08:35.320+02:00&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mJpaBaseConfiguration$JpaWebConfiguration&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-&amp#27;[2m2024-04-22T17:08:35.637+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mDiscoveryClientOptionalArgsConfiguration&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Eureka HTTP Client uses RestTemplate.
-&amp#27;[2m2024-04-22T17:08:35.650+02:00&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36miguration$LoadBalancerCaffeineWarnLogger&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-&amp#27;[2m2024-04-22T17:08:35.660+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.s.c.n.eureka.InstanceInfoFactory      &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Setting initial instance status as: STARTING
-&amp#27;[2m2024-04-22T17:08:35.710+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Initializing Eureka in region us-east-1
-&amp#27;[2m2024-04-22T17:08:35.714+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mc.n.d.s.r.aws.ConfigClusterResolver     &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Resolving eureka endpoints via configuration
-&amp#27;[2m2024-04-22T17:08:35.725+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Disable delta property : false
-&amp#27;[2m2024-04-22T17:08:35.725+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Single vip registry refresh property : null
-&amp#27;[2m2024-04-22T17:08:35.725+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Force full registry fetch : false
-&amp#27;[2m2024-04-22T17:08:35.726+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Application is null : false
-&amp#27;[2m2024-04-22T17:08:35.726+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Registered Applications size is zero : true
-&amp#27;[2m2024-04-22T17:08:35.726+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Application version is -1: true
-&amp#27;[2m2024-04-22T17:08:35.726+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Getting all instance registry info from the eureka server
-&amp#27;[2m2024-04-22T17:08:35.863+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m The response status is 200
-&amp#27;[2m2024-04-22T17:08:35.864+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Starting heartbeat executor: renew interval is: 30
-&amp#27;[2m2024-04-22T17:08:35.865+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mc.n.discovery.InstanceInfoReplicator    &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
-&amp#27;[2m2024-04-22T17:08:35.867+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Discovery Client initialized at timestamp 1713798515867 with initial instances count: 3
-&amp#27;[2m2024-04-22T17:08:35.868+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.s.c.n.e.s.EurekaServiceRegistry       &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Registering application MICROSERVICE-COMMANDES with eureka with status UP
-&amp#27;[2m2024-04-22T17:08:35.869+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Saw local status change event StatusChangeEvent [timestamp=1713798515869, current=UP, previous=STARTING]
-&amp#27;[2m2024-04-22T17:08:35.869+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [nfoReplicator-0]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m DiscoveryClient_MICROSERVICE-COMMANDES/10.192.154.147:microservice-commandes:8081: registering service...
-&amp#27;[2m2024-04-22T17:08:35.875+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36m.m.MicroserviceCommandesApplicationTests&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Started MicroserviceCommandesApplicationTests in 2.804 seconds (process running for 3.192)
-&amp#27;[2m2024-04-22T17:08:35.896+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m4370&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [nfoReplicator-0]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m DiscoveryClient_MICROSERVICE-COMMANDES/10.192.154.147:microservice-commandes:8081 - registration status: 204
+&amp#27;[2m2024-04-25T17:11:29.759+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mc.c.c.ConfigServicePropertySourceLocator&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Fetching config from server at : http://localhost:9101
+&amp#27;[2m2024-04-25T17:11:31.021+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mc.c.c.ConfigServicePropertySourceLocator&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Located environment: name=microservice-commandes, profiles=[default], label=null, version=07e4ad1690db1df3f988a0f7b36943aed08221ad, state=null
+&amp#27;[2m2024-04-25T17:11:31.022+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mb.c.PropertySourceBootstrapConfiguration&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/ayman-h226/Tp-E-Commerce.git/microservice-commandes.properties'}]
+&amp#27;[2m2024-04-25T17:11:31.028+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36m.m.MicroserviceCommandesApplicationTests&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m No active profile set, falling back to 1 default profile: "default"
+&amp#27;[2m2024-04-25T17:11:31.262+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36m.s.d.r.c.RepositoryConfigurationDelegate&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+&amp#27;[2m2024-04-25T17:11:31.323+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36m.s.d.r.c.RepositoryConfigurationDelegate&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
+&amp#27;[2m2024-04-25T17:11:31.442+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.s.cloud.context.scope.GenericScope    &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m BeanFactory id=6cebb8d9-895a-3e83-ab65-f5e52a66ef0c
+&amp#27;[2m2024-04-25T17:11:31.490+02:00&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mtrationDelegate$BeanPostProcessorChecker&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+&amp#27;[2m2024-04-25T17:11:31.492+02:00&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mtrationDelegate$BeanPostProcessorChecker&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+&amp#27;[2m2024-04-25T17:11:31.562+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.hibernate.jpa.internal.util.LogHelper &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+&amp#27;[2m2024-04-25T17:11:31.588+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36morg.hibernate.Version                   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HHH000412: Hibernate ORM core version 6.4.4.Final
+&amp#27;[2m2024-04-25T17:11:31.603+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.h.c.internal.RegionFactoryInitiator   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HHH000026: Second-level cache disabled
+&amp#27;[2m2024-04-25T17:11:31.698+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.s.o.j.p.SpringPersistenceUnitInfo     &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+&amp#27;[2m2024-04-25T17:11:31.710+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.zaxxer.hikari.HikariDataSource      &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HikariPool-1 - Starting...
+&amp#27;[2m2024-04-25T17:11:31.808+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.zaxxer.hikari.pool.HikariPool       &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@39f4a7c4
+&amp#27;[2m2024-04-25T17:11:31.808+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.zaxxer.hikari.HikariDataSource      &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HikariPool-1 - Start completed.
+&amp#27;[2m2024-04-25T17:11:31.832+02:00&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36morg.hibernate.orm.deprecation           &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+&amp#27;[2m2024-04-25T17:11:32.227+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.h.e.t.j.p.i.JtaPlatformInitiator      &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+&amp#27;[2m2024-04-25T17:11:32.264+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mj.LocalContainerEntityManagerFactoryBean&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+&amp#27;[2m2024-04-25T17:11:32.420+02:00&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mJpaBaseConfiguration$JpaWebConfiguration&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+&amp#27;[2m2024-04-25T17:11:32.720+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mDiscoveryClientOptionalArgsConfiguration&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Eureka HTTP Client uses RestTemplate.
+&amp#27;[2m2024-04-25T17:11:32.733+02:00&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36miguration$LoadBalancerCaffeineWarnLogger&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+&amp#27;[2m2024-04-25T17:11:32.743+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.s.c.n.eureka.InstanceInfoFactory      &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Setting initial instance status as: STARTING
+&amp#27;[2m2024-04-25T17:11:32.798+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Initializing Eureka in region us-east-1
+&amp#27;[2m2024-04-25T17:11:32.800+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mc.n.d.s.r.aws.ConfigClusterResolver     &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Resolving eureka endpoints via configuration
+&amp#27;[2m2024-04-25T17:11:32.814+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Disable delta property : false
+&amp#27;[2m2024-04-25T17:11:32.814+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Single vip registry refresh property : null
+&amp#27;[2m2024-04-25T17:11:32.814+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Force full registry fetch : false
+&amp#27;[2m2024-04-25T17:11:32.814+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Application is null : false
+&amp#27;[2m2024-04-25T17:11:32.814+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Registered Applications size is zero : true
+&amp#27;[2m2024-04-25T17:11:32.814+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Application version is -1: true
+&amp#27;[2m2024-04-25T17:11:32.814+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Getting all instance registry info from the eureka server
+&amp#27;[2m2024-04-25T17:11:32.933+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.a.h.c.h.i.c.HttpRequestRetryExec      &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Recoverable I/O exception (org.apache.hc.core5.http.NoHttpResponseException) caught when processing request to {}->http://localhost:9102
+&amp#27;[2m2024-04-25T17:11:32.936+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mc.n.d.s.t.d.RedirectingEurekaHttpClient &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:9102/eureka/}, exception=I/O error on GET request for "http://localhost:9102/eureka/apps/": Connection reset stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:9102/eureka/apps/": Connection reset
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:915)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:895)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplications(RestTemplateEurekaHttpClient.java:135)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1045)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:958)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:396)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:247)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:242)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:68)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:321)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:140)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1335)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1165)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:365)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:375)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:179)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:362)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:128)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:116)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:482)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$SpringCGLIB$$0.getEurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:83)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:66)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:89)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:288)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:471)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:260)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:981)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1454)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:194)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:556)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:782)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:1108)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1095)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:149)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:247)
+	at org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:54)
+	at org.apache.hc.core5.http.impl.io.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:299)
+	at org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:175)
+	at org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:218)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager$InternalConnectionEndpoint.execute(PoolingHttpClientConnectionManager.java:712)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.execute(InternalExecRuntime.java:216)
+	at org.apache.hc.client5.http.impl.classic.MainClientExec.execute(MainClientExec.java:116)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:188)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:95)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:112)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
+	... 141 more
+
+&amp#27;[2m2024-04-25T17:11:32.937+02:00&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mc.n.d.s.t.d.RetryableEurekaHttpClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Request execution failed with message: I/O error on GET request for "http://localhost:9102/eureka/apps/": Connection reset
+&amp#27;[2m2024-04-25T17:11:32.937+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m DiscoveryClient_MICROSERVICE-COMMANDES/10.8.11.66:microservice-commandes:8081 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1045)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:958)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:396)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:247)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:242)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:68)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:321)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:140)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1335)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1165)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:365)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:375)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:179)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:362)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:128)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:116)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:482)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$SpringCGLIB$$0.getEurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:83)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:66)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:89)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:288)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:471)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:260)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:981)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1454)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:194)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:556)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:782)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+&amp#27;[2m2024-04-25T17:11:32.938+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Initial registry fetch from primary servers failed
+&amp#27;[2m2024-04-25T17:11:32.938+02:00&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Using default backup registry implementation which does not do anything.
+&amp#27;[2m2024-04-25T17:11:32.939+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Initial registry fetch from backup servers failed
+&amp#27;[2m2024-04-25T17:11:32.939+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Starting heartbeat executor: renew interval is: 30
+&amp#27;[2m2024-04-25T17:11:32.940+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mc.n.discovery.InstanceInfoReplicator    &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+&amp#27;[2m2024-04-25T17:11:32.942+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Discovery Client initialized at timestamp 1714057892942 with initial instances count: 0
+&amp#27;[2m2024-04-25T17:11:32.944+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mo.s.c.n.e.s.EurekaServiceRegistry       &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Registering application MICROSERVICE-COMMANDES with eureka with status UP
+&amp#27;[2m2024-04-25T17:11:32.944+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Saw local status change event StatusChangeEvent [timestamp=1714057892944, current=UP, previous=STARTING]
+&amp#27;[2m2024-04-25T17:11:32.945+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [nfoReplicator-0]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m DiscoveryClient_MICROSERVICE-COMMANDES/10.8.11.66:microservice-commandes:8081: registering service...
+&amp#27;[2m2024-04-25T17:11:32.952+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [           main]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36m.m.MicroserviceCommandesApplicationTests&amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Started MicroserviceCommandesApplicationTests in 3.538 seconds (process running for 3.961)
+&amp#27;[2m2024-04-25T17:11:32.963+02:00&amp#27;[0;39m &amp#27;[32m INFO&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [nfoReplicator-0]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mc.n.d.s.t.d.RedirectingEurekaHttpClient &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:9102/eureka/}, exception=I/O error on POST request for "http://localhost:9102/eureka/apps/MICROSERVICE-COMMANDES": Connection reset stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9102/eureka/apps/MICROSERVICE-COMMANDES": Connection reset
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:915)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:895)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.implRead(Socket.java:1108)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1095)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:149)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:247)
+	at org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:54)
+	at org.apache.hc.core5.http.impl.io.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:299)
+	at org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:175)
+	at org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:218)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager$InternalConnectionEndpoint.execute(PoolingHttpClientConnectionManager.java:712)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.execute(InternalExecRuntime.java:216)
+	at org.apache.hc.client5.http.impl.classic.MainClientExec.execute(MainClientExec.java:116)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:188)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:95)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:112)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
+	... 22 more
+
+&amp#27;[2m2024-04-25T17:11:32.963+02:00&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [nfoReplicator-0]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mc.n.d.s.t.d.RetryableEurekaHttpClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m Request execution failed with message: I/O error on POST request for "http://localhost:9102/eureka/apps/MICROSERVICE-COMMANDES": Connection reset
+&amp#27;[2m2024-04-25T17:11:32.964+02:00&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [nfoReplicator-0]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mcom.netflix.discovery.DiscoveryClient   &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m DiscoveryClient_MICROSERVICE-COMMANDES/10.8.11.66:microservice-commandes:8081 - registration failed Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-2.0.2.jar:2.0.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+
+&amp#27;[2m2024-04-25T17:11:32.967+02:00&amp#27;[0;39m &amp#27;[33m WARN&amp#27;[0;39m &amp#27;[35m61768&amp#27;[0;39m &amp#27;[2m---&amp#27;[0;39m &amp#27;[2m[microservice-commandes] [nfoReplicator-0]&amp#27;[0;39m &amp#27;[2m&amp#27;[0;39m&amp#27;[36mc.n.discovery.InstanceInfoReplicator    &amp#27;[0;39m &amp#27;[2m:&amp#27;[0;39m There was a problem with the instance info replicator
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-2.0.2.jar:2.0.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+
 ]]></system-out>
     <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/papemayeldiagnethiam/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.13/byte-buddy-agent-1.14.13.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning

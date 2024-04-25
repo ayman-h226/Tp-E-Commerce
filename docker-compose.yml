@@ -121,3 +121,23 @@ services:
     environment:
       spring.cloud.config.uri: http://config-file-server:9101
       EUREKA_HOST: eureka-server
+
+  microservice-clients-ui:
+    image: microservice-clients-ui
+    restart: always
+    volumes:
+      - './microservice-clients-ui:/usr/src/app'
+    build:
+      context: ./microservice-clients-ui
+      dockerfile: Dockerfile
+    expose: 
+      - 4200
+    ports:
+      - 4200:4200
+    #depends_on:
+     # - microservice-produits
+     # - microservice-commandes
+     # - microservice-paiements
+    #environment:
+      #spring.cloud.config.uri: http://config-file-server:9101
+      #EUREKA_HOST: eureka-server

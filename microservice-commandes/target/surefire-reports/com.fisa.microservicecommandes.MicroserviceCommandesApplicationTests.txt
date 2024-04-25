@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.fisa.microservicecommandes.MicroserviceCommandesApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.282 s -- in com.fisa.microservicecommandes.MicroserviceCommandesApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.102 s -- in com.fisa.microservicecommandes.MicroserviceCommandesApplicationTests

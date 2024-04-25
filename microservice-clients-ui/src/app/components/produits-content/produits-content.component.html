@@ -6,6 +6,17 @@
 
 <div *ngIf="isClickedToSee">
     <app-produit-card></app-produit-card>
+    <div class="row">
+        <div class="col-lg-4" *ngFor="let produit of produits">
+            <app-produit-card
+            [titre]="produit.titre"
+            [description]="produit.description"
+            [image]="produit.image"
+            [prix]="produit.prix"
+            [id]="produit.id"
+            ></app-produit-card>
+        </div>
+    </div>
 </div>
 
 <div *ngIf="isClickedToAdd">
