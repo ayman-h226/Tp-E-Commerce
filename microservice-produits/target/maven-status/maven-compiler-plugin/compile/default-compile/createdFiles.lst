@@ -1,4 +1,5 @@
 com/fisa/microserviceproduits/model/Produit.class
 com/fisa/microserviceproduits/controller/ProduitController.class
+com/fisa/microserviceproduits/model/Message.class
 com/fisa/microserviceproduits/MicroserviceProduitsApplication.class
 com/fisa/microserviceproduits/repository/ProduitRepository.class

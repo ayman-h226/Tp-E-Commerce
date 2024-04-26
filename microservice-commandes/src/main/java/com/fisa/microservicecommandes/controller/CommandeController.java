@@ -1,16 +1,15 @@
 package com.fisa.microservicecommandes.controller;
 
 import com.fisa.microservicecommandes.model.Commande;
+import com.fisa.microservicecommandes.model.Message;
 import com.fisa.microservicecommandes.repository.CommandeRepository;
-import org.json.JSONObject;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
 
 @RestController
@@ -24,9 +23,7 @@ public class CommandeController {
     @ResponseBody
     public ResponseEntity<?> ajouterCommande(@RequestBody Commande commande) {
         if (commande == null) {
-            Map<String, String> mapMessage = new HashMap<>();
-            mapMessage.put("error", "La commande ne peut pas être nulle");
-            JSONObject message = new JSONObject(mapMessage);
+            Message message = new Message("La commande ne peut pas être nulle");
             return new ResponseEntity<>(message, HttpStatus.BAD_REQUEST);
         }
 
@@ -41,9 +38,7 @@ public class CommandeController {
     public ResponseEntity<?> commandes() {
         List<Commande> listeCommandes = commandeRepository.findAll();
         if (listeCommandes.isEmpty()) {
-            Map<String, String> mapMessage = new HashMap<>();
-            mapMessage.put("error", "Aucune commande n'a été trouvée");
-            JSONObject message = new JSONObject(mapMessage);
+            Message message = new Message("Aucune commande n'a été trouvée");
             return new ResponseEntity<>(message, HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<>(listeCommandes, HttpStatus.OK);
@@ -57,9 +52,7 @@ public class CommandeController {
         if (commande.isPresent()) {
             return new ResponseEntity<>(commande.get(), HttpStatus.OK);
         } else {
-            Map<String, String> mapMessage = new HashMap<>();
-            mapMessage.put("error", "Cette commande avec l'ID " + id + " n'existe pas");
-            JSONObject message = new JSONObject(mapMessage);
+            Message message = new Message("Cette commande avec l'ID " + id + " n'existe pas");
             return new ResponseEntity<>(message, HttpStatus.NOT_FOUND);
         }
     }

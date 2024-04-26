@@ -7,10 +7,12 @@ import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { ProduitCardComponent } from './components/produit-card/produit-card.component';
+import { PageConnexionComponent } from './pages/page-connexion/page-connexion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    PageConnexionComponent,
   ],
   imports: [
     BrowserModule,

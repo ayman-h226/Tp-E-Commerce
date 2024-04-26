@@ -1,3 +1,4 @@
+com/fisa/microservicecommandes/model/Message.class
 com/fisa/microservicecommandes/MicroserviceCommandesApplication.class
 com/fisa/microservicecommandes/model/Commande.class
 com/fisa/microservicecommandes/controller/CommandeController.class

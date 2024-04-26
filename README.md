@@ -17,8 +17,9 @@
 Ce projet vise à mettre en place les fondations nécessaires pour développer des micro-services orientés Edge dans le cadre d'une application de e-commerce simple. 
 
 - **Objectifs Principaux :**
-    - **Gestion des Clients :** Développer un micro-service permettant de gérer des clients.
+    - **Gestion des Clients :** Développer un micro-service permettant de gérer des clients. C'est plus géré sur la partie front client UI et pour se connecter (login: admin, password: admin) pour tous les users
     <br>Modele Relationel BDD: Client(#id, login, password) 
+    <br>Voici les endpoints qu'on pourrait implémenter
 
     | Method | Endpoints     | Description                       |
     | :-------- | :------- | :-------------------------------- |
@@ -28,6 +29,7 @@ Ce projet vise à mettre en place les fondations nécessaires pour développer d
 
     - **Gestion des Produits :** Créer un micro-service pour gérer la liste des produits disponibles à la vente, incluant l'ajout et la suppression de produits.
     <br>Modele Relationel BDD: Produit(#id, titre, description, image, prix) 
+    <br>Voici les API développés
 
     | Method | Endpoints     | Description                       |
     | :-------- | :------- | :-------------------------------- |
@@ -37,7 +39,8 @@ Ce projet vise à mettre en place les fondations nécessaires pour développer d
     | `DELETE`      | `/api/produits/:id` | Supprimer un produit par son id |
 
     - **Gestion des Commandes :** Mettre en place un micro-service pour traiter les commandes passées par les clients, y compris le suivi et la gestion de l'état des commandes.
-    <br>Modele Relationel BDD: Commande(#id, productId, quantite, commandePayee) 
+    <br>Modele Relationel BDD: Commande(#id, productId, quantite, commandePayee)
+    <br>Voici les API développés 
 
     | Method | Endpoints     | Description                       |
     | :-------- | :------- | :-------------------------------- |
@@ -47,6 +50,7 @@ Ce projet vise à mettre en place les fondations nécessaires pour développer d
 
     - **Système de Paiement :** Développer un micro-service de simulation de paiement pour traiter les transactions de paiement des commandes. 
     <br>Modele Relationel BDD: Paiement(#id, idCommande, montant, numeroCarte) 
+    <br>Voici les API développés
 
     | Method | Endpoints     | Description                       |
     | :-------- | :------- | :-------------------------------- |
@@ -110,6 +114,14 @@ L'API Gateway Zuul offre plusieurs avantages stratégiques et techniques pour ce
 
 ![alt text](images/archi-diagram.png)
 
+
+# Compile, package, build
+
+- En cas de changements des fichiers sources, il faut **recompiler** et **packager** le projet concerné avec `maven` afin de pouvoir obtenir le `.jar` pour builder une nouvelle image docker
+
+- Exemple avec le microservice `zuul-server`
+![alt text](images/package-maven.png)
+
 # Configuration et lancement des microservices
 
 - Cloner le projet 
@@ -125,10 +137,3 @@ cd Tp-E-Commerce
 ```sh
 docker-compose up -d
 ```
-
-# Compile, package, build
-
-- En cas de changements des fichiers sources, il faut **recompiler** et **packager** le projet concerné avec `maven` afin de pouvoir obtenir le `.jar` pour builder une nouvelle image docker
-
-- Exemple avec le microservice `zuul-server`
-![alt text](images/package-maven.png)
