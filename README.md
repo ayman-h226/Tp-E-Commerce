@@ -10,7 +10,7 @@
 
 # Technos utilisés
 
-   <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="100" height="100"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="100" height="100"/> </a> <a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/" target="_blank" rel="noreferrer"> <img src="https://imgs.search.brave.com/oTzlZ5o5m_C3Bn4S6L-2Pv6f6xuJJo8bD39DgWJZaDg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4t/aW1hZ2VzLTEubWVk/aXVtLmNvbS9tYXgv/ODAwLzEqZ3hYTE1J/dUpESENIN2Z3SWdF/UDFjZy5wbmc" alt="springboot" width="175" height="100"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="100" height="100"/> </a> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="100" height="100"/> </a>
+   <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="100" height="100"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="100" height="100"/> </a> <a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/" target="_blank" rel="noreferrer"> <img src="https://imgs.search.brave.com/oTzlZ5o5m_C3Bn4S6L-2Pv6f6xuJJo8bD39DgWJZaDg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4t/aW1hZ2VzLTEubWVk/aXVtLmNvbS9tYXgv/ODAwLzEqZ3hYTE1J/dUpESENIN2Z3SWdF/UDFjZy5wbmc" alt="springboot" width="175" height="100"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="100" height="100"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="100" height="100"/> </a> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="100" height="100"/> </a>
 
 # Description du projet 
 
@@ -25,7 +25,7 @@ Ce projet vise à mettre en place les fondations nécessaires pour développer d
     | :-------- | :------- | :-------------------------------- |
     | `GET`      | `/api/clients` | Avoir tous les clients |
     | `POST`      | `/api/clients/login` | Se comnecter avec un login et password |
-    | `POST`      | `/api/clients/sign-up` | S'inscrire with login et password |
+    | `POST`      | `/api/clients/sign-up` | S'inscrire avec login et password |
 
     - **Gestion des Produits :** Créer un micro-service pour gérer la liste des produits disponibles à la vente, incluant l'ajout et la suppression de produits.
     <br>Modele Relationel BDD: Produit(#id, titre, description, image, prix) 
@@ -39,7 +39,7 @@ Ce projet vise à mettre en place les fondations nécessaires pour développer d
     | `DELETE`      | `/api/produits/:id` | Supprimer un produit par son id |
 
     - **Gestion des Commandes :** Mettre en place un micro-service pour traiter les commandes passées par les clients, y compris le suivi et la gestion de l'état des commandes.
-    <br>Modele Relationel BDD: Commande(#id, productId, quantite, commandePayee)
+    <br>Modele Relationel BDD: Commande(#id, productId, quantite, dataCommande, commandePayee)
     <br>Voici les API développés 
 
     | Method | Endpoints     | Description                       |
@@ -149,3 +149,7 @@ docker-compose up -d
 - Aperçu de Eureka server en `localhost` au port `9102`
 
 ![alt text](images/preview-eureka.png)
+
+# Test des API avec Postman
+
+- Ouvrir Postman et importer la collection `./Tp-E-Commerce.postman_collection.json` pour tester quelques API

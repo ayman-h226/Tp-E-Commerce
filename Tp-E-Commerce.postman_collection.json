@@ -1,0 +1,217 @@
+{
+	"info": {
+		"_postman_id": "3a5271e5-7960-4bac-8e02-e23fc48e10da",
+		"name": "Tp-E-Commerce",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23376084"
+	},
+	"item": [
+		{
+			"name": "Ajouter Produit 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"titre\": \"Maillot Sénégal 🇸🇳\",\n    \"description\": \"Maillot du Sénégal avec lequel la CAN 2021 a été gagné\",\n    \"image\": \"https://imgs.search.brave.com/53tQs4VrBcTR1Ogdd7Yq5NV2x2IjNWoIXMrZiHsojkw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hcGku/cHJvZC5wYW5pbmku/Y2xvdWQvcHViL21l/ZGlhL2NhdGFsb2cv/cHJvZHVjdC9yZXNp/emVkLzkwMC8zLzEv/MzE3MDAwZV8xLmpw/Zw\",\n    \"prix\": \"80.0\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/produits/ajouter",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"produits",
+						"ajouter"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ajouter Produit 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"titre\": \"Maillot Burkina Faso 🇧🇫\",\n    \"description\": \"Maillot avec lequel les étalons gagneront la CAN 2025\",\n    \"image\": \"https://imgs.search.brave.com/R06cDYVxeE-q4C46dY7G-03m6fad-u6_PFr-kp2fpCE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/bWFpbGxvdHNkZWZv/b3QubmV0L2ltYWdl/L2NhY2hlL2NhdGFs/b2cvaW1hZ2VzL21h/aWxsb3QtYnVya2lu/YS1mYXNvLWRvbWlj/aWxlLTIwMjEtMjAy/Mi0yMjh4MjI4Lmpw/Zw\",\n    \"prix\": \"80.0\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/produits/ajouter",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"produits",
+						"ajouter"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ajouter Produit 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"titre\": \"Maillot Maroc 🇲🇦\",\n    \"description\": \"Maillot avec lequel le Maroc a tout défoncé durant la coupe du monde 2022\",\n    \"image\": \"https://imgs.search.brave.com/kdiCVDdVEAcm80o8ZKQRNzyyJdWjg9WLCJf8vDs40LM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pbnRlcnNwb3J0/LmZyL2lzL2ltYWdl/L2ludGVyc3BvcnRm/ci83NjU4MDdfS0Uy/X1ExPyRwcm9kdWl0/X2wk.jpeg\",\n    \"prix\": \"80.0\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/produits/ajouter",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"produits",
+						"ajouter"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ajouter Produit 4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"titre\": \"Maillot France 🇫🇷\",\n    \"description\": \"Nouveau maillot 2024 de l'équipe de France avec les 2 étoiles\",\n    \"image\": \"https://imgs.search.brave.com/g8O68VRNXD7lI-hiqy7v-diBsdCp03SS8aGQ4plUUio/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/Zm9vdC5mci8xMjk0/ODgtcGR0XzM2MC9t/YWlsbG90LWVxdWlw/ZS1kZS1mcmFuY2Ut/ZXh0ZXJpZXVyLTIw/MjQuanBn\",\n    \"prix\": \"80.0\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/produits/ajouter",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"produits",
+						"ajouter"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Avoir tous les produits",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/produits",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"produits"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Avoir un produit par son id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/produits/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"produits",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "102"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Avoir toutes les commandes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/commandes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"commandes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Avoir tous les paiements",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/api/paiements",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"paiements"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
