@@ -117,10 +117,14 @@ L'API Gateway Zuul offre plusieurs avantages stratégiques et techniques pour ce
 
 # Compile, package, build
 
+- Dans le projet, un fichier `.jar` a été déjà généré pour chaque microservice pour les builds d'images docker
+
 - En cas de changements des fichiers sources, il faut **recompiler** et **packager** le projet concerné avec `maven` afin de pouvoir obtenir le `.jar` pour builder une nouvelle image docker
 
-- Exemple avec le microservice `zuul-server`
-![alt text](images/package-maven.png)
+- Exemple avec le microservice `microservice-produits`
+![alt text](images/clean-compile-package.gif)
+
+- Fortement conseillé de le faire pour chaque microservice
 
 # Configuration et lancement des microservices
 
@@ -137,3 +141,11 @@ cd Tp-E-Commerce
 ```sh
 docker-compose up -d
 ```
+
+- Patienter jusqu'à lancement complet de tous les services du `docker-compose`
+
+- Il peut arriver que le demarrage de `eureka-server` et de `zuul-server` se passe mal; donc ne pas hésiter à le relancer depuis le Docker Desktop
+
+- Aperçu de Eureka server en `localhost` au port `9102`
+
+![alt text](images/preview-eureka.png)
