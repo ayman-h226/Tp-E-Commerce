@@ -115,7 +115,7 @@ L'API Gateway Zuul offre plusieurs avantages stratégiques et techniques pour ce
 ![alt text](images/archi-diagram.png)
 
 
-# Compile, package, build
+# Clean, Compile, Package
 
 - Dans le projet, un fichier `.jar` a été déjà généré pour chaque microservice pour les builds d'images docker
 
